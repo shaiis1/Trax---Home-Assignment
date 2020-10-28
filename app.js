@@ -41,3 +41,5 @@ app.get('/getContactByName/:name',(request,response) => {
 app.listen(port, function () {
     console.log(`Server is listening at http://localhost:${port}`)
 });
+
+module.exports = app;

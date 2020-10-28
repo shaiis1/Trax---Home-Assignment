@@ -2,13 +2,6 @@ require('../app.js');
 var expect = require('chai').expect;
 var request = require('request');
 
-let contactsArray = [{ name: 'Shai', phone: '0503793797' },
-{  name: 'Moran', phone: '0542248433'  },
- {  name: 'Sarai', phone: '0503793796'  }, 
- {  name: 'Guy', phone: '0505568794'  },
-{ name: 'Benny', phone: '0507821635' },
-{ name: 'Yossi', phone: '0507821689' }]
-
 describe('Basic GET POST tests', function () {
     it('should GET the greeting - Hi Trax! This is Shai Israeli', function() {
       request.get('http://localhost:4000/whos-there', function (error, response) {

@@ -1,0 +1,24 @@
+{
+  "name": "trax",
+  "version": "1.0.0",
+  "description": "Home assignment to Trax",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaiis1/Home-Assignment---Trax.git"
+  },
+  "author": "Shai Israeli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaiis1/Home-Assignment---Trax/issues"
+  },
+  "homepage": "https://github.com/shaiis1/Home-Assignment---Trax#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}

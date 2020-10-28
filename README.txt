@@ -1,0 +1,1 @@
+To build node_modules library, first run "npm install" command
